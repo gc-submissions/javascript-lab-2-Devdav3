@@ -21,7 +21,7 @@ const logHealth = (player, health) => {
 }
 
 const logDeath = (winner, loser) => {
-  console.log (`${winner} defeated: ${loser}`);
+  console.log (`${winner} defeated ${loser}`);
 }
 
 const isDead = (health) => {
@@ -55,3 +55,5 @@ function fight(player1, player2, player1Health, player2Health) {
     }
   }
 }
+
+fight("Mike", "Allison", 100,100)
